@@ -1,0 +1,37 @@
+.container{
+    background-color: brown;
+}
+
+.food{
+    margin-left :250px;
+    height: 350px;
+}
+.foodter{
+    margin-left :200px;
+    height: 350px;
+}   
+
+.nowimg{
+    font-weight:35px;
+    height: 35px;
+}
+.now_img{
+    display:flex ;
+    align-items: center;
+}
+
+.imagefood{
+    border-radius:2%;
+}
+.signin{
+    border-radius:2%;
+    padding: 30px;
+    background-color: rgb(245, 246, 248);
+}
+.signinin{
+    padding: 30px;
+    border-radius:2%;
+    background-color: rgb(245, 246, 248);
+}
+
+
