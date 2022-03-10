@@ -23,7 +23,7 @@
                 <div class="col-md-12">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <div class="container-fluid">
-                            <a class="navbar-brand pe-auto d-flex align-items-center" href="demo.html">
+                            <a class="navbar-brand pe-auto d-flex align-items-center" href="index.php">
                                 <div class="nowfood_header">
                                     <img src="images/nowfood.png" alt="" class="nowfood_img">
                                 </div>
@@ -35,7 +35,7 @@
                           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                               <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="demo.html">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link" href="#">Categories</a>
@@ -45,7 +45,7 @@
                               </li>
                               <li class="nav-item">
                                 <div class="d-flex">
-                                    <a class="nav-link" href="Signout.html">Sign out</a>
+                                    <a class="nav-link" href="signout.php">Sign out</a>
                                 </div>
                               </li>
                             </ul>
@@ -85,7 +85,7 @@
                         <h5 class="my-0">Food Title</h5>
                         <p class="food_price">$2.3</p>
                         <p class="food_info">Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                        <a href="order.html" class="btn btn_order">Order Now</a>
+                        <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
                 <div class="food_item col-6 box-2">
@@ -96,7 +96,7 @@
                         <h5 class="my-0">Food Title</h5>
                         <p class="food_price">$2.3</p>
                         <p class="food_info">Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                        <a href="order.html" class="btn btn_order">Order Now</a>
+                        <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
                 <div class="food_item col-6 box-2">
@@ -107,7 +107,7 @@
                         <h5 class="my-0">Food Title</h5>
                         <p class="food_price">$2.3</p>
                         <p class="food_info">Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                        <a href="order.html" class="btn btn_order">Order Now</a>
+                        <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
                 <div class="food_item col-6 box-2">
@@ -118,7 +118,7 @@
                         <h5 class="my-0">Food Title</h5>
                         <p class="food_price">$2.3</p>
                         <p class="food_info">Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                        <a href="order.html" class="btn btn_order">Order Now</a>
+                        <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
                 <div class="food_item col-6 box-2">
@@ -129,7 +129,7 @@
                         <h5 class="my-0">Food Title</h5>
                         <p class="food_price">$2.3</p>
                         <p class="food_info">Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                        <a href="order.html" class="btn btn_order">Order Now</a>
+                        <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
                 <div class="food_item col-6 box-2">
@@ -140,7 +140,7 @@
                         <h5 class="my-0">Food Title</h5>
                         <p class="food_price">$2.3</p>
                         <p class="food_info">Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                        <a href="order.html" class="btn btn_order">Order Now</a>
+                        <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
             </div>

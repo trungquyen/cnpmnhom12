@@ -23,7 +23,7 @@
                 <div class="col-md-12">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <div class="container-fluid">
-                            <a class="navbar-brand pe-auto d-flex align-items-center" href="demo.html">
+                            <a class="navbar-brand pe-auto d-flex align-items-center" href="index.php">
                                 <div class="nowfood_header">
                                     <img src="images/nowfood.png" alt="" class="nowfood_img">
                                 </div>
@@ -35,7 +35,7 @@
                           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                               <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="demo.html">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link" href="#">Categories</a>
@@ -45,8 +45,7 @@
                               </li>
                               <li class="nav-item">
                                 <div class="d-flex">
-                                    <a class="nav-link" href="#">Sign in</a>
-                                    <a class="nav-link" href="#">/ Sign up</a>
+                                    <a class="nav-link" href="signout.php">Sign out</a>
                                 </div>
                               </li>
                             </ul>
