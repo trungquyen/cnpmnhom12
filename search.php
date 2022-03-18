@@ -1,7 +1,7 @@
 <?php
     // trước khi cho người dùng vào bên trong
     // phải kiểm tra thẻ làm việc
-    session_start();
+    // session_start();
     if (!isset($_SESSION['isLoginOK'])){
         header("location:form.php");
     }
@@ -61,27 +61,10 @@
         </div>
     </head>
     <main>
-        <div class="container">
-            <div class="row">
-                <h2 class="label_food">Explore Foods</h2>
-                <div class="box-3">
-                    <img src="images/mon4.jpg" class="rounded img_food" alt="...">
-                </div>
-                <div class="box-3">
-                    <img src="images/mon9.jpg" class="rounded img_food" alt="...">
-                </div>
-                <div class="box-3">
-                    <img src="images/mon6.jpg" class="rounded img_food" alt="...">
-                </div>
-                <div class="box-3">
-                    <img src="images/menu-momo.jpg" class="rounded img_food" alt="...">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <h2 class="label_food">Food Menu</h2>
-                <div class="food_item col-6 box-2">
+        <div class="container bg-danger">
+            <div class="row px-2">
+                <h3>Tìm kiếm: </h3>
+                <div class="col-md-12 box-1">
                     <div class="food_item--img">
                         <img src="images/mon1.jpg" class="img_food" alt="">
                     </div>
@@ -92,9 +75,9 @@
                         <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
-                <div class="food_item col-6 box-2">
+                <div class="col-md-12 box-1">
                     <div class="food_item--img">
-                        <img src="images/mon2.jpg" class="img_food" alt="">
+                        <img src="images/mon1.jpg" class="img_food" alt="">
                     </div>
                     <div class="food_item--label">
                         <h5 class="my-0">Food Title</h5>
@@ -103,9 +86,9 @@
                         <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
-                <div class="food_item col-6 box-2">
+                <div class="col-md-12 box-1">
                     <div class="food_item--img">
-                        <img src="images/mon3.jpg" class="img_food" alt="">
+                        <img src="images/mon1.jpg" class="img_food" alt="">
                     </div>
                     <div class="food_item--label">
                         <h5 class="my-0">Food Title</h5>
@@ -114,31 +97,9 @@
                         <a href="order.php" class="btn btn_order">Order Now</a>
                     </div>
                 </div>
-                <div class="food_item col-6 box-2">
+                <div class="col-md-12 box-1">
                     <div class="food_item--img">
-                        <img src="images/mon4.jpg" class="img_food" alt="">
-                    </div>
-                    <div class="food_item--label">
-                        <h5 class="my-0">Food Title</h5>
-                        <p class="food_price">23.000VNĐ</p>
-                        <p class="food_info">Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                        <a href="order.php" class="btn btn_order">Order Now</a>
-                    </div>
-                </div>
-                <div class="food_item col-6 box-2">
-                    <div class="food_item--img">
-                        <img src="images/mon5.jpg" class="img_food" alt="">
-                    </div>
-                    <div class="food_item--label">
-                        <h5 class="my-0">Food Title</h5>
-                        <p class="food_price">23.000VNĐ</p>
-                        <p class="food_info">Made with Italian Sauce, Chicken, and organice vegetables.</p>
-                        <a href="order.php" class="btn btn_order">Order Now</a>
-                    </div>
-                </div>
-                <div class="food_item col-6 box-2">
-                    <div class="food_item--img">
-                        <img src="images/mon6.jpg" class="img_food" alt="">
+                        <img src="images/mon1.jpg" class="img_food" alt="">
                     </div>
                     <div class="food_item--label">
                         <h5 class="my-0">Food Title</h5>

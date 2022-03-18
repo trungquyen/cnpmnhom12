@@ -23,6 +23,14 @@
     border-radius: 20%;
 }
 
+.box-1 {
+    width: 100%;
+    padding: 2%;
+    margin: 1% 0;
+    background-color: white;
+    border-radius: 15px;
+}
+
 .box-2 {
     margin: 1%;
     padding: 2%;
@@ -34,7 +42,7 @@
 .food_item {
     display: flex;
     border-radius: 10px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(228, 228, 228);
 }
 
 .food_item--img {
@@ -74,13 +82,6 @@
 
 .btn_order:hover {
     color: green;
-}
-
-.order_info {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(240, 64, 64);
 }
 
 /* @media (min-width: 740px) {
